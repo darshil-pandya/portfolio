@@ -36,7 +36,7 @@ Stay tuned for more...
   </tr>
 </table>
 
-
+<div class="flourish-embed flourish-map" data-src="visualisation/7682280"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
 <div class="flourish-embed flourish-chart" data-src="visualisation/7678104"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
