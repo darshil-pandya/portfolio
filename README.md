@@ -18,7 +18,7 @@ Stay tuned for more...
 ## Assignment 1
 
 ## Assignment 2
-Link to visuals (/Assignment 2: Visualizing government debt.md)
+Link to visuals (/dataviz2.md)
 
 
 ## Assignment 3
