@@ -24,6 +24,8 @@ Stay tuned for more...
   </a>
 </iframe>
 
+<div class="flourish-embed flourish-chart" data-src="visualisation/7678104"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+
 
 ## Assignment 3
 
