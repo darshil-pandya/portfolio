@@ -27,18 +27,13 @@ Stay tuned for more...
 
 <table border="0">
  <tr>
-    <td><b style="font-size:30px">
+    <td>
       <div class="flourish-embed flourish-chart" data-src="visualisation/7678104"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
-      </b>
    </td>
-   <td><b style="font-size:30px">
+   <td>
       <div class="flourish-embed flourish-chart" data-src="visualisation/7682413"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
-      </b>
-   </td> </tr>
- <tr>
-    <td>Lorem ipsum ...</td>
-    <td>Lorem ipsum ...</td>
- </tr>
+   </td> 
+  </tr>
 </table>
 
 
