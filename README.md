@@ -18,25 +18,17 @@ Stay tuned for more...
 ## Assignment 1
 
 ## Assignment 2
+
+#### Visualization 1 from OECD
+
 <iframe src="https://data.oecd.org/chart/6vmV" width="860" height="645" style="border: 0" mozallowfullscreen="true" webkitallowfullscreen="true" allowfullscreen="true">
   <a href="https://data.oecd.org/chart/6vmV" target="_blank">
     OECD Chart: General government debt, Total, % of GDP, Annual, 2020
   </a>
 </iframe>
 
+Generally maps are useful to compare values between different contries, but this is not a rule of thumb. In the above visualization, the colors are not helpful to get any information out of the visualization. The only helpful part in this viz. is the size of the spheres. However, if you closely look at the spheres in europe, the spheres are so closely packed together, its difficult the interpret the countries they represent. The only option is to hover over the sphere to find the information. 
 
-<table border="0">
- <tr>
-    <td>
-      <b style="font-size:30px", width="50>
-      <div class="flourish-embed flourish-chart" data-src="visualisation/7678104"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
-                                                                                                                                                 </b>
-                                                                                                                                                 </td>
-   <td>
-      <div class="flourish-embed flourish-chart" data-src="visualisation/7682413"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
-   </td> 
-  </tr>
-</table>
 
 <div class="flourish-embed flourish-map" data-src="visualisation/7682280"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
