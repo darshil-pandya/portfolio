@@ -31,13 +31,13 @@ Generally maps are useful to compare values between different contries, but this
 
 #### Visualization 2: My version of OECD
 
-<div class="flourish-embed flourish-chart" data-src="visualisation/7682413"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+<div class="flourish-embed flourish-map" data-src="visualisation/7682280"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
 I modified the original viz. a little, and removed the dot representations. I replaced the dots with color hues, so that the darker hues represent higher ratios and the lighter hues represent lower. I used red color to represent the negative effect of high debt-to-gdp ration on the country. Finally, I clubbed the countries into categories so that the reader does not have to sort through a lot of different color hues. 
 
 
+<div class="flourish-embed flourish-chart" data-src="visualisation/7682413"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
-<div class="flourish-embed flourish-map" data-src="visualisation/7682280"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
 <div class="flourish-embed flourish-chart" data-src="visualisation/7678104"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
