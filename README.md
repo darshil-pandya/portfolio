@@ -51,6 +51,8 @@ This is another way of representing the same data. However, this chart is a litt
 
 <div class="flourish-embed flourish-chart" data-src="visualisation/7688791"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
+This is another good alternative representation, but it is quite overwhelming for a novice reader. If the reader is used to consuming this data on a regular basis and wants all information in one go, then this can be a good representation for them. But for a new reader this chart can be an information overload and they can be lost in the data. 
+
 ## Assignment 3
 
 ## Final Project
