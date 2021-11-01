@@ -45,7 +45,11 @@ The choice of red is consistent across the graphs, primarily because of the nega
 
 <div class="flourish-embed flourish-chart" data-src="visualisation/7682413"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
-This is another way of representing the same data. However, this chart is a little deceptive. A user might perceive the chart as - greater the red area, greater is the debt. However this is not entirely conrrect.   
+This is another way of representing the same data. However, this chart is a little deceptive. A user might perceive the chart as - greater the red area, greater is the debt. However this is not entirely conrrect.
+
+#### Visualization 3: Stacked line charts
+
+<div class="flourish-embed flourish-chart" data-src="visualisation/7688791"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
 ## Assignment 3
 
