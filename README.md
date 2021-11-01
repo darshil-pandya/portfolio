@@ -19,7 +19,7 @@ Stay tuned for more...
 
 ## Assignment 2
 
-Link to page https://darshil-pandya.github.io/portfolio/dataviz2
+[Link to page](/dataviz2.md)
 
 ## Assignment 3
 
