@@ -35,3 +35,4 @@ This is another way of representing the same data. However, this chart is a litt
 <div class="flourish-embed flourish-chart" data-src="visualisation/7688791"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
 This is another good alternative representation, but it is quite overwhelming for a novice reader. If the reader is used to consuming this data on a regular basis and wants all information in one go, then this can be a good representation for them. But for a new reader this chart can be an information overload and they can be lost in the data. 
+One good thing about this graph is the option of filters. Readers and restrict the information by selecting the countries they are interested in through the filters. User can customize the information to their comfort.
