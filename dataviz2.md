@@ -2,7 +2,8 @@
 
 ## Assignment 2
 
-#### Visualization 1: OECD
+
+<span style="color:blue">### Visualization 1: OECD</span>
 
 <iframe src="https://data.oecd.org/chart/6vmV" width="860" height="645" style="border: 0" mozallowfullscreen="true" webkitallowfullscreen="true" allowfullscreen="true">
   <a href="https://data.oecd.org/chart/6vmV" target="_blank">
