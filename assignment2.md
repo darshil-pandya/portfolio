@@ -13,3 +13,5 @@ I was doing my research on plastic pollution and came across the below visualiza
 The pie chart intends to provide important information, but it is very difficult to interpretn. Hence, I thought it would be a good idea to try and improve this visualization.
 
 ![Fig 1](https://www.eeer.org/journal/Figure.php?id=eer-2020-535f1&number=1245&p_name=0515_1245 "a title")
+
+<img title="a title" alt="Alt text" src="https://www.eeer.org/journal/Figure.php?id=eer-2020-535f1&number=1245&p_name=0515_1245">
