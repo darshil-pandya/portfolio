@@ -28,6 +28,15 @@ The primary challenge with recreating a solution was to move away from a Pie cha
 
 ## 3. Testing the Solution
 
+I interviewed two people by showing them the wireframe solution to get their feedback. These interviews were based on a set of questions to understand their interpretation of the visual and check if the correct information is conveyed.
+
+1. **Can you tell me what you think this is?** The person A correctly identified the graph as a compariosn between plastic consumption and waste generation. But person A could not understand if the 46% of packaging waste was of total or 46% of consumption.
+2. **Can you describe to me what this is telling you?** Person A was not able to clearly understand if the waste production was a subset of consumption or an independent value.
+3. **Is there anything you find surprising or confusing?** Person A found the arrow legend to be a little confusing and distracting. He also was not clear if the data represented the entire world or a particular country.
+4. **Who do you think is the intended audience for this?** Person A identified the audience as researchers and government organizations who are interested in sector wise generation of plastic waste
+5. **Is there anything you would change or do differently?** Person A had not seen similar chart before and thought that a stacked bar chart could be a better representation.
+
+
 
 
 
