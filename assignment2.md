@@ -34,11 +34,11 @@ I interviewed two people by showing them the wireframe solution to get their fee
 
 1. **Can you tell me what you think this is?** The person A correctly identified the graph as a compariosn between plastic consumption and waste generation. But person A could not understand if the 46% of packaging waste was of total or 46% of consumption.
 2. **Can you describe to me what this is telling you?** Person A was not able to clearly understand if the waste production was a subset of consumption or an independent value.
-3. **Is there anything you find surprising or confusing?** Person A found the arrow legend to be a little confusing and distracting. He also was not clear if the data represented the entire world or a particular country.
+3. **Is there anything you find surprising or confusing?** Person A found the arrow legend to be a little confusing and distracting. He also was not clear if the data represented the entire world or a particular country. Person A did not understand why other was in the middle and not in the end.
 4. **Who do you think is the intended audience for this?** Person A identified the audience as researchers and government organizations who are interested in sector wise generation of plastic waste
 5. **Is there anything you would change or do differently?** Person A had not seen similar chart before and thought that a stacked bar chart could be a better representation.
 
-#### Inte4view 2
+#### Interview 2
 
 1. **Can you tell me what you think this is?** Person B took about 15 seconds to read the graph. She identified it as a comparison between plastic consumption and waste of different sectors.
 2. **Can you describe to me what this is telling you?** She identified that waste is more than consumption. This implies inefficient utilization. She also indentified some industries as being more efficient.
@@ -46,8 +46,21 @@ I interviewed two people by showing them the wireframe solution to get their fee
 4. **Who do you think is the intended audience for this?** Someone who is concerned about environment and wants to say that we should stop/reduce using plastic. 
 5. **Is there anything you would change or do differently?** She would try to highlight the sectors that have more consumption than waste.
 
+### Learnings & Changes
+
+Both the interviews were quite resourceful and provided some key insights from a viewer perspective. Based on their feedback, I decided to make the following changes:
+1. Add a new title to clearly convenvy the intent of the visualization
+2. Change the represention from proportional bar chart to side by side column chart. This was with the primary purpose of conveying the message that "How much of plastic consumed by different sectors is converted into waste?"
+3. I also moved away from percentage representation. I tried to trace the source of data and was able to identify two data sources from a [technical paper](/). I used these sources to create my data and recreate the visualization.
+4. I labelled each column with its corresponding value in million tonne.
+5. Finally, I moved the other sector to the end and arranged every sector in the decending order of their waste production.
 
 
+## 4. Final Solution
 
+Below is the final visualization that was created after an exhaustive critique and redesigning process. The chart is intended for readers who are interested to learn more about plastic pollution and its contribution by different sectors. They can be researchers, government organizaitons, investors, students, etc. 
+This chart should help the readers understand how much of the plastic consumed by each industry is thrown into waste. This waste represents the potential to improve and adopt more recycling practices for these sprcific industries.
+
+One underlying observations would be that majority of plastic is consumed and wasted by the plastic industry. This is also in line with the point that the original author wanted to convey.
 
 <div class="flourish-embed flourish-chart" data-src="visualisation/7769222"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
