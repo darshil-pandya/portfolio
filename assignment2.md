@@ -6,7 +6,7 @@ total world plastic production). Interestingly, this sector is also the highest 
 easiness in processing, lightweight, high thermal, and electrical insulation has made plastic attractive for its applications ranging from food packaging to 
 electrical industries.
 
-## Data Visualization and Source
+## 1. Data Visualization and Source
 
 The below chart is used by a research paper that talks about "Plastic Pollution in Bangladesh: A review on current status emphasizing the impacts on environment and public health".
 This paper was published on the Environmental Engineering Research forum and it talks about the use and consumption of plastics on a global level as well. 
@@ -18,7 +18,7 @@ The pie chart intends to provide important information, but it is very difficult
 
 Source: [Environmental Engineering Research](/https://www.eeer.org/journal/view.php?number=1245)
 
-## Wireframing a Solution
+## 2. Wireframing a Solution
 
 Before moving on the create a wireframe solution, I had to first establish a context for the visualization. We need the reader to learn something from this chart and not just read data from it. So the primary context I decided was that a user should be able to understand how much of the plastic consumed by each global sector is going into waste every year. With this being established I started to create a wireframe.
 
@@ -26,7 +26,7 @@ The primary challenge with recreating a solution was to move away from a Pie cha
 
 ![image](https://user-images.githubusercontent.com/24672169/140815659-e45a3bd2-c4bf-46b7-b98d-34bab8fa47c2.png)
 
-## Testing the Solution
+## 3. Testing the Solution
 
 
 
