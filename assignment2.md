@@ -20,6 +20,13 @@ Source: [Environmental Engineering Research](/https://www.eeer.org/journal/view.
 
 ## Wireframing a Solution
 
+Before moving on the create a wireframe solution, I had to first establish a context for the visualization. We need the reader to learn something from this chart and not just read data from it. So the primary context I decided was that a user should be able to understand how much of the plastic consumed by each global sector is going into waste every year. With this being established I started to create a wireframe.
+
 The primary challenge with recreating a solution was to move away from a Pie chart and still represent the data in percentage of total global values. I tried to flatten the pie char into split bars, and put them side by side to alow a direct comparison between the two. I also updated the color scheme to be consistent across the two bars, so that the reader is not confused. Finally I removed the duplicate index and drew a common index between the graph that can direct the user to draw a one-to-one comparison between the two charts.
 
 ![image](https://user-images.githubusercontent.com/24672169/140815659-e45a3bd2-c4bf-46b7-b98d-34bab8fa47c2.png)
+
+## Testing the Solution
+
+
+
