@@ -1,4 +1,6 @@
-# World Plastic Pollution
+# World Plastic Pollution by Industrial Sectors
+
+[Home](/README.md)
 
 Plastic has become an inseparable part of human development, despite the first commercial use and large scale production is dated back to the 1950s. 
 Plastic has diversified uses and consumed by a number of sectors worldwide. The principal consumer of plastics is packaging industry (consumes almost 36% of the 
@@ -64,3 +66,5 @@ This chart should help the readers understand how much of the plastic consumed b
 One underlying observations would be that majority of plastic is consumed and wasted by the plastic industry. This is also in line with the point that the original author wanted to convey.
 
 <div class="flourish-embed flourish-chart" data-src="visualisation/7769222"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+
+### *Thank You*
