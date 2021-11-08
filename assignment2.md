@@ -15,3 +15,5 @@ The pie chart intends to provide important information, but it is very difficult
 ![Fig 1](https://www.eeer.org/journal/Figure.php?id=eer-2020-535f1&number=1245&p_name=0515_1245 "a title")
 
 <img title="a title" alt="Alt text" src="https://www.eeer.org/journal/Figure.php?id=eer-2020-535f1&number=1245&p_name=0515_1245">
+
+![image](https://user-images.githubusercontent.com/24672169/140813863-98b21c5d-b90a-4cf9-b342-696267130f29.png)
