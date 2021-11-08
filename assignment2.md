@@ -12,8 +12,6 @@ This paper was published on the Environmental Engineering Research forum and it 
 I was doing my research on plastic pollution and came across the below visualization (fig. 1). It took me almost 2 mins to fully understand the story behind the visualization. 
 The pie chart intends to provide important information, but it is very difficult to interpretn. Hence, I thought it would be a good idea to try and improve this visualization.
 
-![Fig 1](https://www.eeer.org/journal/Figure.php?id=eer-2020-535f1&number=1245&p_name=0515_1245 "a title")
+![image](https://user-images.githubusercontent.com/24672169/140813966-4d431240-5af4-4717-8ce1-3944b04d814b.png)
 
-<img title="a title" alt="Alt text" src="https://www.eeer.org/journal/Figure.php?id=eer-2020-535f1&number=1245&p_name=0515_1245">
-
-![image](https://user-images.githubusercontent.com/24672169/140813863-98b21c5d-b90a-4cf9-b342-696267130f29.png)
+Source: [Environmental Engineering Research](/https://www.eeer.org/journal/view.php?number=1245)
