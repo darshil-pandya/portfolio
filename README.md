@@ -23,6 +23,6 @@ Stay tuned for more...
 
 ## Assignment 3
 
-[Link to page](/assignment2.md)
+[Link to page](/assignment3.md)
 
 ## Final Project
