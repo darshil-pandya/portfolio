@@ -2,7 +2,7 @@
 
 In this project, I will be focusing on worlds plastic pollution. I will be including sections which demonstrate the plastic consumption and waste generation by different countries and industries. I want to highlight how our plastic footprint has increased over the years and attract the attention towards, possible areas of improvement.
 
-
+## Structure
 
 ### Annual production of plastics worldwide from 1950 to 2020
 
@@ -68,6 +68,14 @@ https://ourworldindata.org/grapher/surface-plastic-mass-by-ocean
 
 
 
-
 ### Our World in Data - Plastic Pollution
 https://ourworldindata.org/plastic-pollution
+
+
+At the end of this story, I wish to attract the attention of the reader towards the growing concern of water pollution by plastic and motivate them towards taking an action 
+towards solving the problem.
+
+
+
+
+
