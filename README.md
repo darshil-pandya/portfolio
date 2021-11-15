@@ -26,3 +26,4 @@ Stay tuned for more...
 [Link to page](/assignment3.md)
 
 ## Final Project
+[Link to page](/final_project.md)
