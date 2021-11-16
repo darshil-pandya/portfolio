@@ -67,6 +67,10 @@ https://ourworldindata.org/grapher/surface-plastic-mass-by-ocean
 <iframe src="https://ourworldindata.org/grapher/surface-plastic-mass-by-ocean" loading="lazy" style="width: 100%; height: 600px; border: 0px none;"></iframe>
 
 
+### Life time of different products
+https://www.science.org/doi/10.1126/sciadv.1700782
+![image](https://user-images.githubusercontent.com/24672169/141872454-ea050f99-73c2-4b25-910a-b5725a8a6bcf.png)
+
 
 ### Our World in Data - Plastic Pollution
 https://ourworldindata.org/plastic-pollution
@@ -74,6 +78,20 @@ https://ourworldindata.org/plastic-pollution
 
 At the end of this story, I wish to attract the attention of the reader towards the growing concern of water pollution by plastic and motivate them towards taking an action 
 towards solving the problem.
+
+
+### Some Design Mockups
+
+![Telling Stories with Data-11](https://user-images.githubusercontent.com/24672169/141875683-43c18a4a-d9c0-4652-bb75-01a3ddaaec30.jpg)
+
+![Telling Stories with Data-12](https://user-images.githubusercontent.com/24672169/141875688-8c077030-04ca-4345-b184-c92b6183dbee.jpg)
+
+![Telling Stories with Data-13](https://user-images.githubusercontent.com/24672169/141875690-02ac76a3-dd52-413b-a65c-2d27c76ec59a.jpg)
+
+![Telling Stories with Data-14](https://user-images.githubusercontent.com/24672169/141875701-01a038aa-c50b-4ad6-baf6-d0f21324c151.jpg)
+
+![Telling Stories with Data-15](https://user-images.githubusercontent.com/24672169/141875708-7b05a580-7ef4-4f79-bd8f-05444ba94ddc.jpg)
+
 
 
 
