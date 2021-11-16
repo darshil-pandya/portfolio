@@ -1,16 +1,26 @@
-# Plastic Pollution
+# OUR WORLD IN POLLUTION CRISIS
 
 In this project, I will be focusing on worlds plastic pollution. I will be including sections which demonstrate the plastic consumption and waste generation by different countries and industries. I want to highlight how our plastic footprint has increased over the years and attract the attention towards, possible areas of improvement.
 
 ## Structure
+
+1. Explaining where the world stands in terms of different types of pollution
+2. Highlighting the different contributors of pollution
+3. Focusing on the major factors
+4. Bringing light on how the current world is coping up with pollution
+5. Suggesting how evryone can contribute to combat the pollution crisis
+
+Data Sources:
+
+I have picked up data from different sources. The current data source is primarily on plastic pollution. I wish to incorporate some more data on air pollution. 
+I will research and add some pointers on how this pollution is directly impacting the nature and human health. 
+I will try out different combinations of representations to highlight the most critical point to attract users attention with minimum effort.
 
 ### Annual production of plastics worldwide from 1950 to 2020
 
 https://www.statista.com/statistics/282732/global-production-of-plastics-since-1950/
 Data File: statistic_id282732_global-plastic-production-1950-2020.csv
 ![image](https://user-images.githubusercontent.com/24672169/141847767-ab67d68b-6f20-41d0-8345-39e7983f2921.png)
-
-
 
 ### Plastics – the Facts 2020
 
@@ -93,6 +103,13 @@ towards solving the problem.
 ![Telling Stories with Data-15](https://user-images.githubusercontent.com/24672169/141875708-7b05a580-7ef4-4f79-bd8f-05444ba94ddc.jpg)
 
 
+## Method & Medium
+
+I will be using shorthand to build a story for my narrative. I will add different visualizations coupled with some important milestones and metrics that will put an impact on the criticality of pollution.
+
+I will try to incorporate some data from the top organizations that are trying to combat the pollution problem and add reference links.
+
+I will finally try to give some pointers to the readers and help them contribute towards combating the POLLUTION CRISIS.
 
 
 
