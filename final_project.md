@@ -10,7 +10,7 @@ In this project, I will be focusing on worlds plastic pollution. I will be inclu
 4. Bringing light on how the current world is coping up with pollution
 5. Suggesting how evryone can contribute to combat the pollution crisis
 
-Data Sources:
+## Data Sources:
 
 I have picked up data from different sources. The current data source is primarily on plastic pollution. I wish to incorporate some more data on air pollution. 
 I will research and add some pointers on how this pollution is directly impacting the nature and human health. 
