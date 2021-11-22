@@ -1,1 +1,1 @@
-[Shorthand](/https://preview.shorthand.com/HIffbJR7aUjgDvf1#section-Title-gayes0NMeK)
+<script src="https://carnegiemellon.shorthandstories.com/reality-check-pollution/embed.js"></script>
