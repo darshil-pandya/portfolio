@@ -27,3 +27,6 @@ Stay tuned for more...
 
 ## Final Project
 [Link to page](/final_project.md)
+
+## ShortHand
+[Shorthand Assignment](/ShorthandTemplate.md)
