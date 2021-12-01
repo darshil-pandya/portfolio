@@ -16,6 +16,7 @@ Interesting stuff coming soon.
 Stay tuned for more...
 
 ## Assignment 1
+Not on GitHub
 
 ## Assignment 2
 
@@ -25,8 +26,11 @@ Stay tuned for more...
 
 [Link to page](/assignment3.md)
 
-## Final Project
-[Link to page](/final_project.md)
+## First Draft - Wireframes
+[Draft v0.1](/final_project.md)
 
-## ShortHand
-[Shorthand Assignment](/ShorthandTemplate.md)
+## Second Draft - ShortHand
+[Draft v0.2](/ShorthandTemplate.md)
+
+### Final Presentation
+[Final Presentation](/final_presentation.md)
