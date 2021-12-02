@@ -38,7 +38,7 @@ While I was working throught this project, I observed the folling things about m
 
 # Final Shorthand Page:
 
-Link: https://carnegiemellon.shorthandstories.com/reality-check-pollution/index.html
+Link: <a>https://carnegiemellon.shorthandstories.com/reality-check-pollution/index.html</a>
 
 <script src="https://carnegiemellon.shorthandstories.com/reality-check-pollution/embed.js"></script>
 
