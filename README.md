@@ -12,8 +12,6 @@ I am an aspiring Product Manager, currently pursuing my Masters' of Information 
 I hope to develop a design sense for products and websites. I want to learn how to effectively use graphs and visualizations to convey the stories behind complex data.
 
 # Portfolio
-Interesting stuff coming soon.
-Stay tuned for more...
 
 ## Assignment 1
 Not on GitHub
