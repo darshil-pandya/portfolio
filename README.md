@@ -30,5 +30,5 @@ Not on GitHub
 ## Second Draft - ShortHand
 [Draft v0.2](/ShorthandTemplate.md)
 
-### Final Presentation
+## Final Presentation
 [Final Presentation](/final_presentation.md)
