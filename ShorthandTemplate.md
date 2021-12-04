@@ -1,9 +1,4 @@
-<script src="https://carnegiemellon.shorthandstories.com/reality-check-pollution/embed.js"></script>
-
-
-
-
-
+[Home](/README.md)
 
 ## User Research Protocol
 
@@ -66,5 +61,6 @@ I loved the inputs I received from the interviews and will implement the followi
 5. I will also try and add some insight about the top offenders of the pollution, if I can not identify it, i will replace the visualizations.
 6. I will try to add some comparison point like how much plastic is recycled per day, and try to highlight the difference that shows the amount of waste generated per day.
 
+<script src="https://carnegiemellon.shorthandstories.com/reality-check-pollution/embed.js"></script>
 
 
