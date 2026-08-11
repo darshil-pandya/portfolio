@@ -29,6 +29,16 @@ export default function Hero() {
         >
           Get in touch
         </a>
+        <a
+          href={`${import.meta.env.BASE_URL}Darshil_Pandya_Resume.pdf`}
+          download
+          className="inline-flex items-center gap-1.5 px-2 py-3 text-sm font-semibold text-black/60 underline decoration-indigo-400 decoration-2 underline-offset-4 transition hover:text-indigo-600 dark:text-white/60 dark:hover:text-indigo-400"
+        >
+          Download resume
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+            <path d="M12 3v12m0 0l-4-4m4 4l4-4M4 19h16" />
+          </svg>
+        </a>
       </div>
     </section>
   )

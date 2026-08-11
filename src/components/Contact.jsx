@@ -27,6 +27,13 @@ export default function Contact() {
           >
             LinkedIn ↗
           </a>
+          <a
+            href={`${import.meta.env.BASE_URL}Darshil_Pandya_Resume.pdf`}
+            download
+            className="rounded-full border border-black/10 px-6 py-3 text-sm font-semibold text-black/80 transition hover:border-indigo-400 hover:text-indigo-600 dark:border-white/15 dark:text-white/80 dark:hover:text-indigo-400"
+          >
+            Download resume
+          </a>
         </div>
       </div>
     </section>

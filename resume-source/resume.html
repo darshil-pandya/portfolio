@@ -1,0 +1,312 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>Darshil Pandya — Resume</title>
+<style>
+  @page {
+    size: Letter;
+    margin: 0.55in 0.65in;
+  }
+
+  * { box-sizing: border-box; }
+
+  html {
+    color-scheme: light only;
+    background: #ffffff;
+  }
+
+  body {
+    font-family: -apple-system, "Helvetica Neue", Arial, sans-serif;
+    color: #1a1a22;
+    background: #ffffff;
+    font-size: 9.7pt;
+    line-height: 1.42;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .name {
+    font-size: 22pt;
+    font-weight: 800;
+    letter-spacing: -0.01em;
+    color: #14141c;
+  }
+
+  .title {
+    font-size: 11pt;
+    font-weight: 600;
+    color: #4338ca;
+    margin-top: 1px;
+  }
+
+  .contact {
+    font-size: 9pt;
+    color: #45454f;
+    margin-top: 5px;
+  }
+  .contact a { color: #45454f; text-decoration: none; }
+  .contact span.sep { color: #b8b8c2; margin: 0 6px; }
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-bottom: 2px solid #14141c;
+    padding-bottom: 9px;
+    margin-bottom: 11px;
+  }
+
+  .summary {
+    font-size: 9.6pt;
+    color: #2c2c36;
+    margin-bottom: 12px;
+    line-height: 1.48;
+  }
+
+  h2.section {
+    font-size: 9.3pt;
+    font-weight: 800;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    color: #4338ca;
+    border-bottom: 1px solid #d8d8e2;
+    padding-bottom: 3px;
+    margin: 0 0 7px 0;
+  }
+
+  section { margin-bottom: 13px; }
+
+  .competencies {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3px 14px;
+    font-size: 9.2pt;
+    color: #2c2c36;
+  }
+  .competencies div::before {
+    content: "▸ ";
+    color: #4338ca;
+  }
+
+  .job { margin-bottom: 11px; break-inside: avoid; }
+  .job:last-child { margin-bottom: 0; }
+
+  h2.section { break-after: avoid; }
+  .job-row1, .job-location, .subhead { break-after: avoid; }
+  ul.bullets li { break-inside: avoid; }
+  .edu-row, .cert-row { break-inside: avoid; }
+
+  .job-row1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+  .job-role {
+    font-size: 10.3pt;
+    font-weight: 700;
+    color: #14141c;
+  }
+  .job-org {
+    font-weight: 600;
+    color: #4338ca;
+  }
+  .job-period {
+    font-size: 9pt;
+    color: #6b6b78;
+    white-space: nowrap;
+  }
+  .job-location {
+    font-size: 9pt;
+    color: #6b6b78;
+    font-style: italic;
+    margin-bottom: 4px;
+  }
+
+  .subhead {
+    font-size: 8.8pt;
+    font-weight: 700;
+    color: #45454f;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    margin: 6px 0 3px 0;
+  }
+
+  ul.bullets {
+    margin: 0;
+    padding-left: 14px;
+  }
+  ul.bullets li {
+    margin-bottom: 3px;
+    color: #26262f;
+  }
+  ul.bullets li::marker {
+    color: #4338ca;
+  }
+  ul.bullets li b { color: #14141c; }
+
+  .edu-row, .cert-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 6px;
+  }
+  .edu-degree { font-weight: 700; color: #14141c; font-size: 9.8pt; }
+  .edu-org { color: #4338ca; font-weight: 600; }
+  .edu-meta { font-size: 8.8pt; color: #6b6b78; }
+  .edu-period { font-size: 9pt; color: #6b6b78; white-space: nowrap; }
+
+  .two-col {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0 24px;
+  }
+
+  .skills-line {
+    font-size: 9.2pt;
+    color: #2c2c36;
+  }
+  .skills-line b { color: #14141c; }
+
+  .footer-note {
+    margin-top: 14px;
+    font-size: 7.8pt;
+    color: #a3a3ad;
+    text-align: center;
+  }
+</style>
+</head>
+<body>
+
+  <div class="header">
+    <div>
+      <div class="name">Darshil Pandya</div>
+      <div class="title">Senior Product Manager</div>
+    </div>
+    <div class="contact" style="text-align: right;">
+      Atlanta, Georgia<br />
+      <a href="mailto:darshil.s.pandya@gmail.com">darshil.s.pandya@gmail.com</a><br />
+      <a href="https://www.linkedin.com/in/darshilspandya">linkedin.com/in/darshilspandya</a>
+    </div>
+  </div>
+
+  <div class="summary">
+    Senior Product Manager with <b>7+ years of experience</b> spanning product management and technology risk
+    consulting, including <b>4+ years leading AI-native enterprise SaaS</b> at IQVIA — scaling a clinical platform to
+    <b>400K+ users across 60+ countries</b> in a highly regulated, multi-jurisdictional environment. Combines a
+    Computer Science foundation with rigorous data-driven decision-making, cross-functional and executive
+    stakeholder leadership, and a rare depth in payment infrastructure, cybersecurity, and regulatory compliance
+    (HIPAA, GDPR, PCI-DSS, ISO) carried over from three years at Deloitte. Track record of taking products from
+    0-to-1 through global scale, and of using AI tooling to compress the ideation-to-delivery cycle.
+  </div>
+
+  <section>
+    <h2 class="section">Core Competencies</h2>
+    <div class="competencies">
+      <div>Product Vision &amp; Strategy</div>
+      <div>Roadmap Ownership &amp; Prioritization</div>
+      <div>0-to-1 Product Development</div>
+      <div>AI / ML &amp; GenAI Products</div>
+      <div>Executive Stakeholder Management</div>
+      <div>Cross-Functional &amp; Agile Leadership</div>
+      <div>Data-Driven Decision Making</div>
+      <div>Go-to-Market &amp; Pricing Strategy</div>
+      <div>Platform &amp; API Thinking</div>
+      <div>Regulatory Compliance (HIPAA/GDPR/PCI-DSS/ISO)</div>
+      <div>Customer Discovery &amp; Design Thinking</div>
+      <div>Team Mentorship &amp; Coaching</div>
+    </div>
+  </section>
+
+  <section>
+    <h2 class="section">Professional Experience</h2>
+
+    <div class="job">
+      <div class="job-row1">
+        <div><span class="job-role">Product Manager</span> · <span class="job-org">IQVIA</span></div>
+        <div class="job-period">Jun 2022 – Present</div>
+      </div>
+      <div class="job-location">Atlanta, Georgia · Complete Consent (Clinical eConsent SaaS) &amp; OCE Digital (Marketing SaaS)</div>
+
+      <div class="subhead">Platform &amp; AI Strategy</div>
+      <ul class="bullets">
+        <li>Own end-to-end product roadmap for <b>Complete Consent</b>, a mission-critical clinical SaaS platform supporting <b>400K+ users across 60+ countries</b>, 300+ studies, and 10,000+ clinical sites for top-10 pharma and biotech sponsors.</li>
+        <li>Led end-to-end development of an <b>AI-powered ICF digitization engine</b> that automatically converts paper informed-consent documents into compliant digital formats, projected to cut turnaround time by <b>50%</b> and accelerate global trial startup timelines.</li>
+        <li>Spearheaded design and go-to-market strategy for a live-video (telehealth) integration enabling decentralized clinical trials (DCT), balancing a high-touch patient experience with HIPAA/GDPR-grade encryption and multi-site compliance.</li>
+      </ul>
+
+      <div class="subhead">Growth, Analytics &amp; Monetization — OCE Digital</div>
+      <ul class="bullets">
+        <li>Owned product strategy and roadmap for OCE Digital, a B2B multichannel marketing SaaS for pharma professionals; led <b>8 major launches</b> and 30+ iterative releases, driving <b>10% customer base expansion</b>.</li>
+        <li>Built a product telemetry and analytics framework from scratch; used usage and friction signals to drive a full UI/UX redesign that lifted engagement <b>50%</b>, NPS by <b>13 points</b>, and feature adoption by <b>25%</b>.</li>
+        <li>Executed a tiered-pricing GTM strategy achieving <b>18% year-one conversion</b>; orchestrated backend migration from Salesforce Marketing Cloud to Snowflake to improve processing speed and development velocity.</li>
+        <li>Built the executive business case and MVP for a GPT-based translation/localization module projected to save <b>$300K annually</b>; separately drove 0-to-1 definition of an AI-powered CRM Assistant that secured executive approval for full product-line integration.</li>
+      </ul>
+
+      <div class="subhead">Leadership</div>
+      <ul class="bullets">
+        <li>Lead 2–3 global agile scrum teams on monthly release cycles; mentor an Associate Product Manager. Rated <b>"Exceeding Expectations"</b> in two consecutive annual performance cycles.</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="job-row1">
+        <div><span class="job-role">Product Management Intern</span> · <span class="job-org">IQVIA</span></div>
+        <div class="job-period">Jun 2021 – Aug 2021</div>
+      </div>
+      <div class="job-location">New Jersey</div>
+      <ul class="bullets">
+        <li>Conceptualized an AI-powered digital voice assistant for a B2B CRM platform — product vision, use cases, user stories, and Figma wireframes. MVP was approved by leadership and later developed into the shipped CRM Assistant product above.</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="job-row1">
+        <div><span class="job-role">Assistant Manager &amp; Consultant, Cyber Risk</span> · <span class="job-org">Deloitte</span></div>
+        <div class="job-period">Jul 2017 – Oct 2020</div>
+      </div>
+      <div class="job-location">Mumbai, India · Promoted from Consultant to Assistant Manager, 2020</div>
+      <ul class="bullets">
+        <li>Assessed backend infrastructure and reviewed <b>30+ end-to-end payment flows</b> (including UPI) for major payment institutions, recommending security and process improvements without compromising latency.</li>
+        <li>Independently conceived and built a <b>SWIFT payments assessment toolkit</b> and an Aadhaar-regulation compliance dashboard, expanding Deloitte's Financial Risk practice into the APAC region and securing <b>$200K in new project wins</b>.</li>
+        <li>Led large-scale data localization and vendor risk engagements for international banks: audited payment and digital wallet providers for RBI compliance, consolidated compliance data across hundreds of vendors, and delivered BI reporting via Qlik Sense — work that led to <b>$100K–$200K in new projects</b> and <b>130% payment on deliverables</b>.</li>
+        <li>Performed full-spectrum information security reviews (access control, network, cloud, encryption, DLP) and source code reviews (Python, Java, SQL); trained analysts and consultants and presented risk findings to C-suite audiences.</li>
+        <li>Won <b>3 awards</b> for managing high-pressure, client-focused engagements under tight deadlines.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <h2 class="section">Education</h2>
+    <div class="edu-row">
+      <div>
+        <div class="edu-degree">Master of Information Systems Management (MISM)</div>
+        <div class="edu-meta"><span class="edu-org">Carnegie Mellon University</span> — GPA 3.8, Summa Cum Laude</div>
+      </div>
+      <div class="edu-period">Jan 2021 – May 2022</div>
+    </div>
+    <div class="edu-row">
+      <div>
+        <div class="edu-degree">B.E., Computer Science</div>
+        <div class="edu-meta"><span class="edu-org">Sardar Patel Institute of Technology, Mumbai University</span> — GPA 3.42, Distinction</div>
+      </div>
+      <div class="edu-period">Aug 2013 – May 2017</div>
+    </div>
+  </section>
+
+  <div class="two-col">
+    <section>
+      <h2 class="section">Certifications</h2>
+      <div class="skills-line">
+        Registered Product Owner — Scrum Inc.<br />
+        Registered Scrum Master — Scrum Inc.
+      </div>
+    </section>
+    <section>
+      <h2 class="section">Technical Skills</h2>
+      <div class="skills-line">
+        Python · SQL · Java · React/JavaScript · Snowflake · Tableau · Salesforce APIs · Figma · JIRA/Confluence
+      </div>
+    </section>
+  </div>
+
+</body>
+</html>
