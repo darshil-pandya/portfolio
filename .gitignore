@@ -7,3 +7,4 @@ dist-ssr
 !.vscode/extensions.json
 
 DARSHIL_EXPERIENCE_MEMORY.md
+.claude/scheduled_tasks.lock
