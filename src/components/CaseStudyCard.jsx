@@ -9,7 +9,7 @@ export default function CaseStudyCard({ study }) {
         {study.domains.map((d) => (
           <span
             key={d}
-            className="rounded-full bg-indigo-500/10 px-2.5 py-0.5 text-[11px] font-medium text-indigo-600 dark:bg-indigo-400/15 dark:text-indigo-300"
+            className="rounded-full bg-[#8B5CF6]/10 px-2.5 py-0.5 text-[11px] font-medium text-[#7C3AED] dark:bg-[#8B5CF6]/15 dark:text-[#A78BFA]"
           >
             {d}
           </span>
@@ -23,7 +23,7 @@ export default function CaseStudyCard({ study }) {
 
       <p className="mt-3 text-sm leading-relaxed text-black/65 dark:text-white/65">{study.hook}</p>
 
-      <p className="mt-4 text-sm font-semibold text-indigo-600 dark:text-indigo-400">↳ {study.impact}</p>
+      <p className="mt-4 text-sm font-semibold text-[#7C3AED] dark:text-[#A78BFA]">↳ {study.impact}</p>
 
       {open && (
         <div className="mt-4 space-y-3 border-t border-black/8 pt-4 dark:border-white/10">
@@ -37,7 +37,7 @@ export default function CaseStudyCard({ study }) {
 
       <button
         onClick={() => setOpen((o) => !o)}
-        className="mt-5 self-start text-sm font-semibold text-black/70 underline decoration-indigo-400 decoration-2 underline-offset-4 transition hover:text-indigo-600 dark:text-white/70 dark:hover:text-indigo-400"
+        className="mt-5 self-start text-sm font-semibold text-black/70 underline decoration-[#8B5CF6] decoration-2 underline-offset-4 transition hover:text-[#7C3AED] dark:text-white/70 dark:hover:text-[#A78BFA]"
       >
         {open ? 'Show less' : 'Read the full story'}
       </button>

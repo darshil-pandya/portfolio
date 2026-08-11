@@ -29,7 +29,7 @@ export default function CaseStudies() {
             onClick={() => setActive(d)}
             className={`rounded-full px-4 py-1.5 text-sm font-medium transition ${
               active === d
-                ? 'bg-indigo-600 text-white'
+                ? 'bg-[#7C3AED] text-white'
                 : 'bg-black/5 text-black/60 hover:bg-black/10 dark:bg-white/10 dark:text-white/60 dark:hover:bg-white/15'
             }`}
           >

@@ -22,7 +22,7 @@ export default function Navbar({ isDark, setIsDark }) {
             <a
               key={l.href}
               href={l.href}
-              className="text-sm font-medium text-black/60 transition hover:text-indigo-600 dark:text-white/60 dark:hover:text-indigo-400"
+              className="text-sm font-medium text-black/60 transition hover:text-[#7C3AED] dark:text-white/60 dark:hover:text-[#A78BFA]"
             >
               {l.label}
             </a>
@@ -69,7 +69,7 @@ function ThemeToggle({ isDark, setIsDark }) {
     <button
       aria-label="Toggle dark mode"
       onClick={() => setIsDark((d) => !d)}
-      className="flex h-9 w-9 items-center justify-center rounded-full border border-black/10 text-black/70 transition hover:border-indigo-400 hover:text-indigo-600 dark:border-white/15 dark:text-white/70 dark:hover:text-indigo-400"
+      className="flex h-9 w-9 items-center justify-center rounded-full border border-black/10 text-black/70 transition hover:border-[#8B5CF6] hover:text-[#7C3AED] dark:border-white/15 dark:text-white/70 dark:hover:text-[#A78BFA]"
     >
       {isDark ? (
         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">

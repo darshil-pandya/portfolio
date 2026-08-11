@@ -125,6 +125,7 @@ export const experience = [
   {
     role: 'Product Manager',
     org: 'IQVIA',
+    logo: 'logos/iqvia.svg',
     location: 'Atlanta, Georgia',
     period: 'Jun 2022 – Present',
     bullets: [
@@ -137,6 +138,7 @@ export const experience = [
   {
     role: 'Product Management Intern',
     org: 'IQVIA',
+    logo: 'logos/iqvia.svg',
     location: 'New Jersey',
     period: 'Jun 2021 – Aug 2021',
     bullets: [
@@ -147,6 +149,7 @@ export const experience = [
   {
     role: 'Assistant Manager & Consultant, Cyber Risk',
     org: 'Deloitte',
+    logo: 'logos/deloitte.png',
     location: 'Mumbai, India',
     period: 'Jul 2017 – Oct 2020',
     bullets: [
@@ -162,6 +165,7 @@ export const education = [
   {
     degree: 'Master of Information Systems Management (MISM)',
     org: 'Carnegie Mellon University',
+    logo: 'logos/cmu.png',
     location: 'Pittsburgh, PA',
     period: 'Jan 2021 – May 2022',
     note: 'GPA 3.8 — Summa Cum Laude',
@@ -169,6 +173,7 @@ export const education = [
   {
     degree: 'B.E., Computer Science',
     org: 'Sardar Patel Institute of Technology, Mumbai University',
+    logo: 'logos/spit.jpeg',
     location: 'Mumbai, India',
     period: 'Aug 2013 – May 2017',
     note: 'GPA 3.42 — Distinction',
