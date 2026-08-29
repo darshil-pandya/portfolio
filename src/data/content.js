@@ -121,6 +121,26 @@ export const caseStudies = [
   },
 ]
 
+export const sideProjects = [
+  {
+    id: 'ipl-fantasy',
+    title: 'IPL Fantasy',
+    tagline: 'A private, real-time fantasy cricket league — built end-to-end for 7 friends.',
+    preview: 'projects/ipl-fantasy-preview.png',
+    liveUrl: 'https://darshil-pandya.github.io/IPL-Fantasy/',
+    codeUrl: 'https://github.com/darshil-pandya/IPL-Fantasy',
+    stack: ['React', 'TypeScript', 'Firebase / Firestore', 'Cloud Functions', 'Recharts', 'GitHub Pages'],
+    description:
+      "A full-stack fantasy cricket app I designed, built, and ship-and-run for my own IPL fantasy league — franchise squads, live standings, a match-by-match scoring matrix, and a season-long predictions game, all updating in real time for all seven owners.",
+    highlights: [
+      'Real-time multi-user sync via Firestore — standings, waivers, and match points update live for every owner, no refresh needed.',
+      'Server-authoritative Cloud Functions run the blind-bid waiver system (nominate, bid, settle, budget) so no client can see or tamper with other bids — an honor-system reveal handled by the commissioner.',
+      'Built an automated score-sync pipeline that scrapes ESPN Cricinfo scorecards server-side, resolves player names across data sources, and computes our custom fantasy scoring rules — replacing what used to be an hour of manual data entry after every match.',
+      'Season-long predictions game (Winner, Runner-up, Orange Cap, Purple Cap) with bonus points folded directly into the main leaderboard.',
+    ],
+  },
+]
+
 export const experience = [
   {
     role: 'Product Manager',
