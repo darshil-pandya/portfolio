@@ -88,8 +88,6 @@ export const caseStudies = [
     impact: 'Full product-line integration, secured at executive level',
     body: [
       "As a PM intern in 2021, I conceptualized an AI-powered digital voice assistant for IQVIA's B2B CRM platform, wrote the product vision, use cases, user stories, flow diagrams, and Figma wireframes, and built the MVP case that was widely appreciated by the leadership.",
-      'After joining full-time, I came back to that same idea and drove the 0-to-1 product definition for what it became: an AI-powered CRM Assistant. Synthesized market research, competitive benchmarking, and cross-functional stakeholder input to define the MVP.',
-      'That work secured executive approval for full product-line integration, closing the loop on a product I first sketched out as an intern.',
     ],
   },
   {
@@ -102,7 +100,7 @@ export const caseStudies = [
     body: [
       'Global banking clients needed a consistent way to assess SWIFT payment infrastructure against India’s Aadhaar identity regulations — a genuinely complex regulatory surface with no standard toolkit behind it.',
       'On my own initiative, I drafted the project vision and built a SWIFT payments assessment toolkit, along with a companion toolkit covering Aadhaar regulations with an automated reporting dashboard, simplifying regulatory complexity for global banking partners.',
-      'That toolkit became a repeatable asset: it enabled Deloitte to expand its Financial Risk service line across the APAC region and secured $200K in new project wins.',
+      'That toolkit became a repeatable asset: it enabled Deloitte to expand its Financial Risk service line across the APAC region and secured several new project wins.',
     ],
   },
   {
@@ -111,11 +109,11 @@ export const caseStudies = [
     company: 'Deloitte · Cyber Risk',
     domains: ['Fintech', 'Security & Compliance'],
     hook: 'Auditing payment providers and hundreds of vendors against RBI, GDPR, and ISO standards.',
-    impact: '$100K–$200K in projects; 130% payment on deliverables',
+    impact: '3x new projects; 30% bonus revenue on deliverables',
     body: [
       'International banks needed to prove their data localization and vendor relationships held up against Reserve Bank of India guidelines, GDPR, and ISO standards — across payment providers, digital wallets, and hundreds of third-party vendors.',
       'I led large-scale data localization projects, audited major payment and digital wallet providers in India for RBI compliance, validated encryption/authentication/authorization controls, and consolidated compliance data for hundreds of vendors across geographies for a multinational bank, reporting findings via Qlik Sense dashboards.',
-      'The work led to $100K–$200K in new data-localization projects and results strong enough to earn 130% payment on multiple deliverables.',
+      'The work led to several new data-localization projects and results strong enough to earn contractual bonus payment on multiple deliverables.',
     ],
   },
 ]
