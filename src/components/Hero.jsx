@@ -12,9 +12,13 @@ export default function Hero() {
         {profile.tagline}
       </h1>
 
-      <p className="mt-6 max-w-2xl text-balance text-lg leading-relaxed text-black/65 dark:text-white/65">
-        {profile.summary}
-      </p>
+      <div className="mt-6 max-w-2xl space-y-4 text-lg leading-relaxed text-black/65 dark:text-white/65">
+        {profile.summary.split('\n\n').map((paragraph, i) => (
+          <p key={i} className="text-balance">
+            {paragraph}
+          </p>
+        ))}
+      </div>
 
       <div className="mt-9 flex flex-wrap items-center gap-4">
         <a

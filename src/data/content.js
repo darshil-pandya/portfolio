@@ -4,9 +4,9 @@ export const profile = {
   location: 'Atlanta, Georgia',
   email: 'darshil.s.pandya@gmail.com',
   linkedin: 'https://www.linkedin.com/in/darshilspandya',
-  tagline: 'I build AI-native enterprise SaaS in regulated industries.',
+  tagline: 'Building AI-native products in regulated industries.',
   summary:
-    "PM with a CS foundation and 4+ years building AI-powered enterprise SaaS at IQVIA, supporting 400K+ users across 60+ countries. I ship AI-native product capabilities — LLM automation, GenAI workflows, NLP — while using AI tooling myself to move faster through prioritization, prototyping, and delivery. Before product, I spent three years at Deloitte assessing payment infrastructure and information security for global banks, which is where the regulatory instincts (HIPAA, GDPR, PCI-DSS, RBI) come from.",
+    "Product Leader with roots in Computer Science. 11+ years in CS space and 8+ years building & auditing products in highly regulated industries.\n\nAt IQVIA, I have shipped 10+ highly competitive features for 1M+ enterprise SaaS users across 70+ countries. I have shipped multiple AI-native product capabilities — document parser, workflow automation, release readiness — while using AI tooling myself to move faster through prioritization, prototyping, and delivery.\n\nI started my professional journey with Deloitte, assessing payment infrastructure and information security for global banks, which is where the regulatory instincts (HIPAA, GDPR, PCI-DSS, RBI) come from.\n\nI feel energized by complex problems, good team work and building happy user experiences.\n\nI keep upgrading my skills with several personal projects that help me keep updated with technology advancements and optimized workflows.",
 }
 
 export const domains = [
@@ -19,21 +19,20 @@ export const domains = [
 ]
 
 export const metrics = [
-  { value: '400K+', label: 'users across 60+ countries' },
-  { value: '50%', label: 'projected ICF turnaround reduction' },
-  { value: '$300K', label: 'annual savings from AI localization' },
-  { value: '+13', label: 'NPS points from a UX redesign' },
-  { value: '18%', label: 'conversion rate, tiered GTM launch' },
-  { value: '8', label: 'major product launches led' },
+  { value: '1M+', label: 'users across 70+ countries' },
+  { value: '50%', label: 'efficiency gains with AI-powered document authoring' },
+  { value: '$600K', label: 'annual savings from AI-powered document authoring' },
+  { value: '+13', label: 'NPS lift from UX redesign' },
+  { value: '10+', label: 'major product launches led' },
 ]
 
 export const caseStudies = [
   {
     id: 'icf-digitization',
-    title: 'AI-Powered ICF Digitization Engine',
+    title: 'AI-Powered Interactive Document Authoring Engine',
     company: 'IQVIA · Complete Consent',
     domains: ['AI / ML', 'Healthtech'],
-    hook: 'Turning paper informed-consent forms into compliant digital documents, automatically.',
+    hook: 'Turning paper informed-consent forms (ICF) into compliant interactive digital documents, at the push of a button.',
     impact: '50% projected reduction in ICF turnaround time',
     body: [
       'Informed Consent Forms (ICFs) are the compliance backbone of every clinical trial — and for decades, converting them from paper to digital has been a slow, manual, error-prone process that delays trial startup.',
@@ -46,12 +45,12 @@ export const caseStudies = [
     title: 'Telehealth / Live Video Integration for Decentralized Trials',
     company: 'IQVIA · Complete Consent',
     domains: ['Healthtech'],
-    hook: 'Letting patients consent to a clinical trial from home, without compromising privacy or scale.',
-    impact: 'Enabled decentralized (DCT) trial participation at multi-site scale',
+    hook: 'Enabling patients to remotely consent to a clinical trial from home, without compromising privacy or scale.',
+    impact: 'Improved decentralized (DCT) trial participation at multi-site scale',
     body: [
       'Decentralized clinical trials (DCT) let patients participate without traveling to a site — but that only works if consent, one of the most legally sensitive moments in a trial, can happen remotely and still hold up.',
       'I spearheaded the design and go-to-market strategy for a live video calling integration inside the eConsent platform, working closely with UX, Legal, and Site Operations to keep it HIPAA/GDPR compliant and ready for multi-site scale.',
-      'The hardest part was balancing a genuinely high-touch patient experience against industry-leading encryption and data-privacy safeguards — neither side of that trade-off was negotiable.',
+      'The critical balance: delivering an intuitive multi-participant interface while ensuring site staff maintained control throughout the consent workflow—without sacrificing compliance.',
     ],
   },
   {
@@ -72,23 +71,23 @@ export const caseStudies = [
     title: 'AI/GPT Localization Module',
     company: 'IQVIA · OCE Digital',
     domains: ['AI / ML', 'Enterprise SaaS'],
-    hook: 'A business case for GPT-based translation that paid for itself in year one.',
+    hook: 'A business case for GPT-based translation that pays for itself in year one.',
     impact: '$300K in projected annual savings',
     body: [
-      'Localizing marketing content for a global pharma customer base was expensive and slow, running through traditional translation vendors for every campaign and market.',
-      'I proposed and prototyped a GPT-based translation and localization module, building the executive business case myself: competitive analysis, MVP scope, and a cost model showing where the savings would come from.',
-      'The business case was strong enough to secure executive sponsorship and move the module from prototype into the actual roadmap, with a projected $300K in annual localization savings.',
+      'Localizing marketing content for global pharma customers meant expensive, slow cycles through traditional translation vendors for each release.',
+      'I took the initiative to prototype a GPT-based solution and build the complete executive business case: competitive analysis, MVP scope, and a financial model showing exactly where savings would materialize.',
+      'Compelling enough to move from prototype to roadmap, with $300K in projected annual localization savings.',
     ],
   },
   {
     id: 'crm-assistant',
-    title: 'AI-Powered CRM Assistant — from Intern Prototype to Shipped Product',
-    company: 'IQVIA · OCE Digital',
+    title: 'AI-Powered CRM Assistant',
+    company: 'IQVIA · OCE Personal',
     domains: ['AI / ML', 'Enterprise SaaS'],
-    hook: 'I conceived this product as an intern in 2021 — then came back and shipped it.',
+    hook: 'I conceived this product as an intern in 2021.',
     impact: 'Full product-line integration, secured at executive level',
     body: [
-      'As a PM intern in 2021, I conceptualized an AI-powered digital voice assistant for IQVIA’s B2B CRM platform — wrote the product vision, use cases, user stories, flow diagrams, and Figma wireframes, and built the MVP case that leadership approved for further development.',
+      ‘As a PM intern in 2021, I conceptualized an AI-powered digital voice assistant for IQVIA’s B2B CRM platform — wrote the product vision, use cases, user stories, flow diagrams, and Figma wireframes, and built the MVP case that was widely appreciated by leadership.’,
       'After joining full-time, I came back to that same idea and drove the 0-to-1 product definition for what it became: an AI-powered CRM Assistant. I synthesized market research, competitive benchmarking, and cross-functional stakeholder input to define the MVP.',
       'That work secured executive approval for full product-line integration — closing the loop on a product I first sketched out as an intern.',
     ],
