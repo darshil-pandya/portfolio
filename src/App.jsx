@@ -3,6 +3,7 @@ import Hero from './components/Hero'
 import Metrics from './components/Metrics'
 import CaseStudies from './components/CaseStudies'
 import Projects from './components/Projects'
+import AiLifecycle from './components/AiLifecycle'
 import Experience from './components/Experience'
 import Skills from './components/Skills'
 import Contact from './components/Contact'
@@ -20,6 +21,7 @@ export default function App() {
         <Metrics />
         <CaseStudies />
         <Projects />
+        <AiLifecycle />
         <Experience />
         <Skills />
         <Contact />

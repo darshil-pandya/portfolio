@@ -152,6 +152,77 @@ export const sideProjects = [
   },
 ]
 
+export const aiLifecycle = {
+  eyebrow: 'How I work',
+  title: 'The AI-native PM lifecycle',
+  subtitle:
+    'Nine stages from backlog to release note — most with an AI checkpoint built in, one deliberately human-only. One Cursor project carries the context the whole way through, so nothing gets re-explained twice.',
+  stages: [
+    {
+      title: 'Prioritize',
+      body: 'The Jira backlog lives inside Cursor via MCP — every ticket scored against a RICE-style model before it earns a spot on the roadmap.',
+      edge: 'user, sales & delivery feedback is folded into each ticket as scoring context automatically',
+      chips: ['Cursor', 'Jira · MCP'],
+    },
+    {
+      title: 'Discover',
+      body: '1:1s with users, sales, and delivery on the scoped features — every call recorded and transcribed live in Teams.',
+      edge: 'Copilot condenses hours of conversation into one deep-dive summary per feature, attached to the research',
+      verify: 'spot-checked against my own notes from the call before it goes into the research doc',
+      chips: ['Copilot', 'MS Teams'],
+    },
+    {
+      title: 'Prototype',
+      body: 'Before a word of the PRD exists, the idea becomes a clickable, multi-page prototype for people to react to.',
+      edge: 'Figma Make and Cursor turn raw requirements into something users, sales & leadership can actually click through',
+      chips: ['Figma Make', 'Cursor'],
+    },
+    {
+      title: 'Regulatory review',
+      body: "The validated prototype goes through compliance review — HIPAA, GDPR, PCI-DSS, or FDA clinical regulatory, depending on what's in scope — before a word of the PRD is finalized.",
+      edge: 'this is also where AI-tool data handling gets checked — call summaries & ticket content stay inside approved, compliant boundaries',
+      chips: ['Legal', 'Privacy & Security'],
+    },
+    {
+      title: 'Define',
+      body: 'Validated prototype plus every discovery note come together inside the same Cursor project.',
+      edge: 'PRD is drafted and refined inside that project, then reviewed by peers & leadership for a high-level estimate',
+      chips: ['Cursor'],
+    },
+    {
+      title: 'Write stories',
+      body: 'Approved requirements become fully detailed user stories — drafted and refined directly in Cursor.',
+      edge: 'finished stories move straight into Jira — no copy-paste, no drift from what the PRD says',
+      chips: ['Cursor → Jira'],
+    },
+    {
+      title: 'Refine',
+      body: 'Stories are refined live with developers for clarity, consistency, and estimation.',
+      edge: 'Cursor holds the full project context, surfacing every other requirement a change quietly touches',
+      chips: ['Cursor'],
+    },
+    {
+      title: 'Build',
+      body: 'Story points are set and sprints begin — engineering builds against a spec with the ambiguity already removed.',
+      edge: 'the same Cursor project keeps product and engineering reading from one shared source of truth',
+      chips: ['Cursor'],
+    },
+    {
+      title: 'Ship & document',
+      body: 'At release readiness, that same Cursor project surfaces every ticket, feature, and doc requirement left to close.',
+      edge: 'feature specs, technical docs & user guides are extracted automatically, handed to the docs team to finalize',
+      chips: ['Cursor'],
+      stat: { value: '~70%', label: 'estimated drop in manual effort for the documentation team, release over release' },
+    },
+  ],
+  summary: [
+    { value: '9', label: 'lifecycle stages, one Cursor project' },
+    { value: '5', label: 'AI tools stitched into daily workflow' },
+    { value: '0', label: 'copy-paste hops between PRD, stories & Jira' },
+    { value: '~70%', label: 'estimated drop in manual documentation effort' },
+  ],
+}
+
 export const experience = [
   {
     role: 'Product Manager',
