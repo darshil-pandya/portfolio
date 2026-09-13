@@ -87,7 +87,7 @@ export const caseStudies = [
     hook: 'I conceived this product as an intern in 2021.',
     impact: 'Full product-line integration, secured at executive level',
     body: [
-      ‘As a PM intern in 2021, I conceptualized an AI-powered digital voice assistant for IQVIA’s B2B CRM platform — wrote the product vision, use cases, user stories, flow diagrams, and Figma wireframes, and built the MVP case that was widely appreciated by leadership.’,
+      ‘As a PM intern in 2021, I conceptualized an AI-powered digital voice assistant for IQVIA\’s B2B CRM platform — wrote the product vision, use cases, user stories, flow diagrams, and Figma wireframes, and built the MVP case that leadership approved for further development.’,
       'After joining full-time, I came back to that same idea and drove the 0-to-1 product definition for what it became: an AI-powered CRM Assistant. I synthesized market research, competitive benchmarking, and cross-functional stakeholder input to define the MVP.',
       'That work secured executive approval for full product-line integration — closing the loop on a product I first sketched out as an intern.',
     ],
