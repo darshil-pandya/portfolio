@@ -8,7 +8,7 @@ export default function Contact() {
           Let's talk product.
         </h2>
         <p className="mx-auto mt-4 max-w-md text-[#283d3b]/60 dark:text-[#edddd4]/60">
-          Open to Product Manager roles in AI-native, healthtech, and fintech SaaS. Reach out — I'll get back to
+          Open to Senior Product Manager roles in AI-native, healthtech, and fintech SaaS. Reach out — I'll get back to
           you quickly.
         </p>
 

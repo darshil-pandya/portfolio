@@ -100,7 +100,7 @@ export const caseStudies = [
     body: [
       'Global banking clients needed a consistent way to assess SWIFT payment infrastructure against India’s Aadhaar identity regulations — a genuinely complex regulatory surface with no standard toolkit behind it.',
       'On my own initiative, I drafted the project vision and built a SWIFT payments assessment toolkit, along with a companion toolkit covering Aadhaar regulations with an automated reporting dashboard, simplifying regulatory complexity for global banking partners.',
-      'That toolkit became a repeatable asset: it enabled Deloitte to expand its Financial Risk service line across the APAC region and secured several new project wins.',
+      'That toolkit became a repeatable asset: it enabled Deloitte to expand its Financial Risk service line across the APAC region and secured $200K in new project wins.',
     ],
   },
   {
@@ -232,8 +232,8 @@ export const experience = [
     location: 'Atlanta, Georgia',
     period: 'Jun 2022 – Present',
     bullets: [
-      'Own end-to-end roadmap for Complete Consent, a mission-critical SaaS platform supporting 400K+ users across 60+ countries, 300+ studies, and 10,000+ clinical sites for top-10 pharma and biotech sponsors.',
-      'Led 8 major product launches and 30+ iterative releases on OCE Digital; drove 10% customer base expansion and a tiered-pricing GTM strategy with 18% year-one conversion.',
+      'Own end-to-end roadmap for Complete Consent, a mission-critical SaaS platform supporting 1M+ users across 70+ countries, 300+ studies, and 10,000+ clinical sites for top-10 pharma and biotech sponsors.',
+      'Led 10+ major product launches and 30+ iterative releases on OCE Digital; drove 10% customer base expansion and a tiered-pricing GTM strategy with 18% year-one conversion.',
       'Led 2–3 global agile scrum teams on monthly release cycles; mentored an Associate Product Manager.',
       'Rated "Exceeding Expectations" in two consecutive annual performance cycles.',
     ],
