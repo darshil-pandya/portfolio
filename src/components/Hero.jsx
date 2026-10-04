@@ -9,7 +9,7 @@ export default function Hero() {
           Atlanta, GA · Open to Senior Product Manager roles
         </p>
         <p className="inline-flex items-center gap-1.5 rounded-full border border-[#84a98c]/50 bg-[#84a98c]/15 px-3 py-1 text-xs font-medium text-[#354f52] dark:border-[#84a98c]/30 dark:bg-[#84a98c]/10 dark:text-[#cad2c5]">
-          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true" className="text-[#c44536] dark:text-[#ef7a6c]">
             <path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z" />
             <circle cx="12" cy="9.5" r="2.5" />
           </svg>
