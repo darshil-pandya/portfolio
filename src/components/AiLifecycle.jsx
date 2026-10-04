@@ -260,9 +260,9 @@ export default function AiLifecycle() {
 
         <div className="mt-16 grid grid-cols-2 gap-x-6 gap-y-8 border-t border-[#283d3b]/5 pt-10 dark:border-[#edddd4]/10 sm:grid-cols-4">
           {summary.map((s) => (
-            <div key={s.label}>
+            <div key={s.label} className="text-center">
               <div className="font-display text-2xl font-extrabold text-[#283d3b] dark:text-[#edddd4]">{s.value}</div>
-              <div className="mt-1 text-xs leading-snug text-[#283d3b]/55 dark:text-[#edddd4]/55">{s.label}</div>
+              <div className="mx-auto mt-1 max-w-[16rem] text-xs leading-snug text-[#283d3b]/55 dark:text-[#edddd4]/55">{s.label}</div>
             </div>
           ))}
         </div>
