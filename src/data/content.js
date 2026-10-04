@@ -320,7 +320,7 @@ export const skills = [
   },
   {
     group: 'Tools & Languages',
-    items: ['Figma', 'JIRA / Confluence', 'Salesforce APIs', 'Python', 'Java', 'React / JavaScript'],
+    items: ['Claude', 'Cursor', 'Copilot Studio', 'Figma', 'JIRA / Confluence', 'Salesforce APIs', 'Python', 'Java', 'React / JavaScript'],
   },
 ]
 
