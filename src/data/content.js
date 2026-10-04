@@ -131,7 +131,7 @@ export const sideProjects = [
       "A full-stack fantasy cricket league platform built from scratch for IPL 2026. Friends draft IPL players at a live auction, score points each match based on real performances, and compete across a full season. Features a live leaderboard, match-by-match scoring, a waiver wire for mid-season pickups, match predictions, and an admin panel that syncs real ESPN Cricinfo scorecards into fantasy points.",
     features: [
       { icon: '🏆', title: 'Live Leaderboard', desc: 'Cumulative points chart with per-owner color themes and real-time standings' },
-      { icon: '⚙️', title: 'Waiver Wire Engine', desc: 'Blind-bid mid-season pickups settled server-side, with budget tracking and ownership history' },
+      { icon: '🔄', title: 'Player Transfer and Bidding Engine', desc: 'Blind-bid mid-season pickups settled server-side, with budget tracking and ownership history' },
       { icon: '📊', title: 'Automated Scoring Pipeline', desc: 'Match-level fantasy points computed from scraped ESPN Cricinfo scorecards against a custom rulebook' },
       { icon: '🔥', title: 'Firebase Backend', desc: 'Firestore for live score sync, waiver bids, and ownership periods, with server-authoritative Cloud Functions' },
       { icon: '🎯', title: 'Match Predictions', desc: 'Owner predictions per match with automated scoring against actual results' },
