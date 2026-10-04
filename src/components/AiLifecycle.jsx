@@ -82,6 +82,7 @@ export default function AiLifecycle() {
   const [hov, setHov] = useState(null)
   const [touched, setTouched] = useState(false)
   const btnRefs = useRef([])
+  const panelRef = useRef(null)
 
   let aiIndex = 0
   const items = stages.map((s, i) => {
@@ -99,6 +100,12 @@ export default function AiLifecycle() {
   const select = (i) => {
     setSel(i)
     setTouched(true)
+  }
+
+  const showPanelOnSmallScreens = () => {
+    if (window.matchMedia('(min-width: 1024px)').matches) return
+    const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches
+    panelRef.current?.scrollIntoView({ behavior: reduce ? 'auto' : 'smooth', block: 'start' })
   }
 
   const onKeyDown = (e, i) => {
@@ -183,7 +190,10 @@ export default function AiLifecycle() {
                     style={{ left: `${s.px / 10}%`, top: `${s.py / 10}%` }}
                     aria-pressed={i === sel}
                     aria-label={`Stage ${i + 1} of ${n}: ${s.title}`}
-                    onClick={() => select(i)}
+                    onClick={() => {
+                      select(i)
+                      showPanelOnSmallScreens()
+                    }}
                     onMouseEnter={() => setHov(i)}
                     onMouseLeave={() => setHov(null)}
                     onFocus={() => setHov(i)}
@@ -200,7 +210,7 @@ export default function AiLifecycle() {
 
           </div>
 
-          <aside className="lc-panel" aria-live="polite">
+          <aside ref={panelRef} className="lc-panel" aria-live="polite">
             <div key={sel} className={`lc-pcontent${touched ? ' lc-swap' : ''}`}>
               <div className="lc-phead">
                 <span className="lc-badge" style={{ background: cur.color }}>

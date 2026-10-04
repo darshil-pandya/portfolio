@@ -143,6 +143,7 @@ body {
 }
 
 .lc-panel {
+  scroll-margin-top: 5rem;
   min-width: 0; width: 100%; max-width: 640px; margin: 0 auto;
   background: var(--lc-surface);
   border: 1px solid var(--lc-line);
