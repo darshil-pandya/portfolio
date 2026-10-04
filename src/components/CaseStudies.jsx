@@ -13,10 +13,10 @@ export default function CaseStudies() {
   return (
     <section id="work" className="mx-auto max-w-5xl px-6 py-20">
       <div className="mb-10">
-        <h2 className="font-display text-3xl font-extrabold tracking-tight text-[#16161d] dark:text-white">
+        <h2 className="font-display text-3xl font-extrabold tracking-tight text-[#283d3b] dark:text-[#edddd4]">
           Selected work
         </h2>
-        <p className="mt-3 max-w-2xl text-black/60 dark:text-white/60">
+        <p className="mt-3 max-w-2xl text-[#283d3b]/60 dark:text-[#edddd4]/60">
           Seven case studies spanning healthtech, fintech, and AI-native enterprise SaaS. Filter by domain to see
           what's most relevant to you.
         </p>
@@ -29,8 +29,8 @@ export default function CaseStudies() {
             onClick={() => setActive(d)}
             className={`rounded-full px-4 py-1.5 text-sm font-medium transition ${
               active === d
-                ? 'bg-[#7C3AED] text-white'
-                : 'bg-black/5 text-black/60 hover:bg-black/10 dark:bg-white/10 dark:text-white/60 dark:hover:bg-white/15'
+                ? 'bg-[#197278] text-white'
+                : 'bg-[#cad2c5]/60 text-[#354f52] hover:bg-[#cad2c5] dark:bg-[#2f3e46] dark:text-[#cad2c5] dark:hover:bg-[#354f52]'
             }`}
           >
             {d}

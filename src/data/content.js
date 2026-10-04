@@ -159,56 +159,57 @@ export const aiLifecycle = {
     'Nine stages from backlog to release note — most with an AI checkpoint built in, one deliberately human-only. One Cursor project carries the context the whole way through, so nothing gets re-explained twice.',
   stages: [
     {
-      title: 'Prioritize',
+      title: 'Prioritization',
       body: 'The Jira backlog lives inside Cursor via MCP — every ticket scored against a RICE-style model before it earns a spot on the roadmap.',
       edge: 'user, sales & delivery feedback is folded into each ticket as scoring context automatically',
       chips: ['Cursor', 'Jira · MCP'],
     },
     {
-      title: 'Discover',
+      title: 'Discovery',
       body: '1:1s with users, sales, and delivery on the scoped features — every call recorded and transcribed live in Teams.',
       edge: 'Copilot condenses hours of conversation into one deep-dive summary per feature, attached to the research',
       verify: 'spot-checked against my own notes from the call before it goes into the research doc',
       chips: ['Copilot', 'MS Teams'],
     },
     {
-      title: 'Prototype',
+      title: 'Prototyping',
       body: 'Before a word of the PRD exists, the idea becomes a clickable, multi-page prototype for people to react to.',
       edge: 'Figma Make and Cursor turn raw requirements into something users, sales & leadership can actually click through',
       chips: ['Figma Make', 'Cursor'],
     },
     {
       title: 'Regulatory review',
+      gate: true,
       body: "The validated prototype goes through compliance review — HIPAA, GDPR, PCI-DSS, or FDA clinical regulatory, depending on what's in scope — before a word of the PRD is finalized.",
       edge: 'this is also where AI-tool data handling gets checked — call summaries & ticket content stay inside approved, compliant boundaries',
       chips: ['Legal', 'Privacy & Security'],
     },
     {
-      title: 'Define',
+      title: 'Scope Definition',
       body: 'Validated prototype plus every discovery note come together inside the same Cursor project.',
       edge: 'PRD is drafted and refined inside that project, then reviewed by peers & leadership for a high-level estimate',
       chips: ['Cursor'],
     },
     {
-      title: 'Write stories',
+      title: 'Detailed Requirements',
       body: 'Approved requirements become fully detailed user stories — drafted and refined directly in Cursor.',
       edge: 'finished stories move straight into Jira — no copy-paste, no drift from what the PRD says',
       chips: ['Cursor → Jira'],
     },
     {
-      title: 'Refine',
+      title: 'Refinement',
       body: 'Stories are refined live with developers for clarity, consistency, and estimation.',
       edge: 'Cursor holds the full project context, surfacing every other requirement a change quietly touches',
       chips: ['Cursor'],
     },
     {
-      title: 'Build',
+      title: 'Development',
       body: 'Story points are set and sprints begin — engineering builds against a spec with the ambiguity already removed.',
       edge: 'the same Cursor project keeps product and engineering reading from one shared source of truth',
       chips: ['Cursor'],
     },
     {
-      title: 'Ship & document',
+      title: 'Release & Documentation',
       body: 'At release readiness, that same Cursor project surfaces every ticket, feature, and doc requirement left to close.',
       edge: 'feature specs, technical docs & user guides are extracted automatically, handed to the docs team to finalize',
       chips: ['Cursor'],
@@ -262,6 +263,28 @@ export const experience = [
     ],
   },
 ]
+
+export const testimonials = {
+  title: 'What colleagues say',
+  subtitle: 'Recommendations from people I have worked with, as written on LinkedIn.',
+  linkedinUrl: 'https://www.linkedin.com/in/darshilspandya/details/recommendations/',
+  items: [
+    {
+      name: 'Reena Pradhan',
+      role: 'Senior Manager',
+      highlight: 'Provide him the requirements and timelines and sit back and relax.',
+      quote:
+        "Darshil is one of the most innovative, reliable, and problem-solving team members I have come across. There are three points I would really like to mention about him – 1. Provide him the requirements and timelines and sit back and relax. No/minimal monitoring is required. 2. If he is provided any feedback, you will see him actually work upon it, and never give you a chance to complaint. Very few individuals have this quality. 3. He will apply his brains! He will follow the instructions, but he will also provide suggestions/ideas if he thinks the work can be executed differently in a better manner – more efficiently. That's Darshil, someone, one would love to work with!!",
+    },
+    {
+      name: 'Anand Venkatraman',
+      role: 'Senior Partner, Deloitte',
+      highlight: 'His problem solving skills are excellent and his ability to convince stakeholders is even better.',
+      quote:
+        "Darshil worked with me at Deloitte for 3 years. To say the least he is a dedicated and very smart consultant. There are very few that you come across in your career whom you would want to keep always by your side, and Darshil to me is one such professional. Darshil's strength is his ability to think through the a problem and come up with multiple solutions and select and present the best solution. His problem solving skills are excellent and his ability to convince stakeholders is even better. I wish him all the very best for his next chapter in his career.",
+    },
+  ],
+}
 
 export const education = [
   {

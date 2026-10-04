@@ -14,12 +14,12 @@ const NAV_ITEMS = ['Home', 'Teams', 'Match Center', 'Players', 'Waivers', 'Predi
 
 export default function Projects() {
   return (
-    <section id="projects" className="border-t border-black/5 dark:border-white/10">
+    <section id="projects" className="border-t border-[#283d3b]/5 dark:border-[#edddd4]/10">
       <div className="mx-auto max-w-5xl px-6 py-20">
-        <h2 className="font-display text-3xl font-extrabold tracking-tight text-[#16161d] dark:text-white">
+        <h2 className="font-display text-3xl font-extrabold tracking-tight text-[#283d3b] dark:text-[#edddd4]">
           Side projects
         </h2>
-        <p className="mt-3 max-w-2xl text-black/60 dark:text-white/60">
+        <p className="mt-3 max-w-2xl text-[#283d3b]/60 dark:text-[#edddd4]/60">
           Things I've designed and built end-to-end outside of work — product, data model, and code.
         </p>
 

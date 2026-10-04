@@ -5,6 +5,7 @@ import CaseStudies from './components/CaseStudies'
 import Projects from './components/Projects'
 import AiLifecycle from './components/AiLifecycle'
 import Experience from './components/Experience'
+import Testimonials from './components/Testimonials'
 import Skills from './components/Skills'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
@@ -20,10 +21,11 @@ export default function App() {
         <Hero />
         <Metrics />
         <CaseStudies />
-        <Projects />
         <AiLifecycle />
         <Experience />
+        <Testimonials />
         <Skills />
+        <Projects />
         <Contact />
       </main>
       <Footer />

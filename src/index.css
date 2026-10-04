@@ -13,14 +13,14 @@ html {
 
 body {
   font-family: 'Inter', system-ui, sans-serif;
-  background-color: #f8f8fb;
-  color: #16161d;
+  background-color: #f6eee9;
+  color: #283d3b;
   transition: background-color 0.2s ease, color 0.2s ease;
 }
 
 .dark body {
-  background-color: #0b0c10;
-  color: #e7e7ec;
+  background-color: #1f2b30;
+  color: #edddd4;
 }
 
 .font-display {
@@ -32,10 +32,170 @@ body {
 }
 
 ::selection {
-  background-color: #4f46e5;
+  background-color: #197278;
   color: white;
 }
 
 .text-balance {
   text-wrap: balance;
+}
+
+/* ---------- AI lifecycle wheel ---------- */
+.lc {
+  --lc-ink: #283d3b;
+  --lc-soft: rgba(40, 61, 59, 0.72);
+  --lc-muted: #5b6d6a;
+  --lc-line: rgba(40, 61, 59, 0.12);
+  --lc-line2: rgba(40, 61, 59, 0.22);
+  --lc-surface: #ffffff;
+  --lc-accent: #197278;
+  --lc-accent-soft: rgba(25, 114, 120, 0.07);
+  --lc-accent-line: rgba(25, 114, 120, 0.22);
+  --lc-edge: #145a5f;
+  --lc-gate: #c44536;
+  --lc-shadow: rgba(40, 61, 59, 0.22);
+}
+.dark .lc {
+  --lc-ink: #edddd4;
+  --lc-soft: rgba(237, 221, 212, 0.76);
+  --lc-muted: #a9b8ae;
+  --lc-line: rgba(237, 221, 212, 0.14);
+  --lc-line2: rgba(237, 221, 212, 0.26);
+  --lc-surface: #2f3e46;
+  --lc-accent: #84a98c;
+  --lc-accent-soft: rgba(132, 169, 140, 0.14);
+  --lc-accent-line: rgba(132, 169, 140, 0.34);
+  --lc-edge: #cad2c5;
+  --lc-gate: #ef7a6c;
+  --lc-shadow: rgba(0, 0, 0, 0.55);
+}
+
+.lc-stage {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 36px;
+  margin-top: 3.5rem;
+  align-items: center;
+}
+.lc-wheel-col { min-width: 0; width: 100%; max-width: 640px; margin: 0 auto; }
+@media (min-width: 1024px) {
+  .lc-stage { grid-template-columns: minmax(0, 680px) minmax(320px, 1fr); gap: 40px; }
+  .lc-wheel-col { max-width: none; margin: 0; }
+}
+
+.lc-wheel {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 1;
+  container: lcwheel / inline-size;
+}
+.lc-wheel > svg { position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible; pointer-events: none; }
+.lc-bloom { transform-origin: 500px 500px; animation: lc-bloom 0.8s cubic-bezier(0.2, 0.8, 0.2, 1) both; }
+@keyframes lc-bloom {
+  from { transform: scale(0.6); opacity: 0.35; }
+  to { transform: scale(1); opacity: 1; }
+}
+.lc-pop { transform-origin: 0 0; transition: transform 0.28s cubic-bezier(0.2, 0.8, 0.2, 1); }
+.lc-petal.hov .lc-pop { transform: scale(1.035); }
+.lc-petal.on .lc-pop { transform: scale(1.07); }
+
+.lc-hub {
+  position: absolute; left: 50%; top: 50%;
+  width: 35%; aspect-ratio: 1;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  background: var(--lc-surface);
+  box-shadow: 0 14px 34px -8px var(--lc-shadow), 0 0 0 1px var(--lc-line);
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+  text-align: center; padding: 0 7%;
+}
+.lc-hub-k {
+  font: 600 clamp(8px, 1.45cqw, 12px) 'IBM Plex Mono', ui-monospace, monospace;
+  letter-spacing: 0.14em; text-transform: uppercase; color: var(--lc-accent);
+}
+.lc-hub-big {
+  margin-top: 0.35em;
+  font: 800 clamp(20px, 6.2cqw, 50px) / 0.92 'Sora', ui-sans-serif, sans-serif;
+  letter-spacing: -0.03em; text-transform: uppercase; color: var(--lc-ink);
+}
+.lc-hub-of { display: block; margin-top: 0.55em; font: 700 clamp(9px, 1.85cqw, 15px) / 1.15 'Sora', sans-serif; letter-spacing: 0.07em; color: var(--lc-accent); text-wrap: balance; }
+.lc-hub-note { margin-top: 0.8em; max-width: 21ch; font-size: clamp(9px, 1.5cqw, 13px); line-height: 1.4; color: var(--lc-muted); }
+
+.lc-pbtn {
+  position: absolute; width: 24%; aspect-ratio: 1;
+  transform: translate(-50%, -50%);
+  border: 0; border-radius: 50%;
+  background: transparent; cursor: pointer; color: #fff; padding: 0 7%;
+  display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center;
+  -webkit-tap-highlight-color: transparent;
+}
+.lc-pbtn:focus-visible { outline: 3px solid var(--lc-ink); outline-offset: 3px; }
+.lc-num { font: 700 clamp(13px, 2.5cqw, 22px) / 1 'Sora', sans-serif; letter-spacing: -0.01em; }
+.lc-rule { width: 64%; height: 2px; margin: 0.38em 0 0.42em; background: rgba(255, 255, 255, 0.88); border-radius: 2px; }
+.lc-ttl { font: 600 clamp(12px, 2cqw, 17px) / 1.12 'Sora', sans-serif; text-wrap: balance; }
+
+@container lcwheel (max-width: 599px) {
+  .lc-pbtn { padding: 0 3%; }
+  .lc-rule,   .lc-num { font-size: clamp(11px, 2.7cqw, 16px); }
+  .lc-ttl { font-size: clamp(9.5px, 2.65cqw, 14px); line-height: 1.08; margin-top: 0.3em; }
+  .lc-hub-k, .lc-hub-note, .lc-hub-of { display: none; }
+  .lc-hub-big { margin: 0; }
+}
+
+.lc-panel {
+  min-width: 0; width: 100%; max-width: 640px; margin: 0 auto;
+  background: var(--lc-surface);
+  border: 1px solid var(--lc-line);
+  border-radius: 22px;
+  padding: 24px 24px 20px;
+  box-shadow: 0 22px 46px -30px var(--lc-shadow);
+  display: flex; flex-direction: column;
+}
+@media (min-width: 1024px) { .lc-panel { max-width: none; margin: 0; min-height: 25rem; padding: 28px 28px 22px; } }
+.lc-swap { animation: lc-swap 0.28s ease both; }
+@keyframes lc-swap {
+  from { opacity: 0.2; transform: translateY(6px); }
+  to { opacity: 1; transform: none; }
+}
+.lc-phead { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 12px; }
+.lc-badge { width: 40px; height: 40px; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: #fff; flex: none; }
+.lc-badge svg { width: 20px; height: 20px; }
+.lc-step { font: 500 12px 'IBM Plex Mono', monospace; letter-spacing: 0.08em; text-transform: uppercase; color: var(--lc-muted); white-space: nowrap; }
+.lc-gatepill {
+  margin-left: auto;
+  font: 600 11px 'IBM Plex Mono', monospace; letter-spacing: 0.06em; text-transform: uppercase;
+  padding: 4px 10px; border-radius: 999px; border: 1px solid var(--lc-gate); color: var(--lc-gate);
+}
+.lc-ptitle { font: 700 clamp(24px, 3vw, 30px) / 1.1 'Sora', sans-serif; letter-spacing: -0.02em; margin: 18px 0 10px; color: var(--lc-ink); }
+.lc-pbody { margin: 0 0 14px; font-size: 16px; line-height: 1.65; color: var(--lc-soft); max-width: 54ch; }
+.lc-edge {
+  display: flex; gap: 8px; align-items: flex-start;
+  padding: 10px 13px; border-radius: 12px;
+  border: 1px solid var(--lc-accent-line); background: var(--lc-accent-soft); max-width: 56ch;
+}
+.lc-edge > span { font: 500 13px / 1.55 'IBM Plex Mono', monospace; color: var(--lc-accent); flex: none; }
+.lc-edge p { margin: 0; font: 400 12.5px / 1.55 'IBM Plex Mono', monospace; color: var(--lc-edge); }
+.lc-verify { display: flex; gap: 8px; align-items: flex-start; margin: 9px 0 0 13px; max-width: 54ch; }
+.lc-verify > span { font: 500 12.5px / 1.55 'IBM Plex Mono', monospace; color: var(--lc-muted); flex: none; }
+.lc-verify p { margin: 0; font: 400 12.5px / 1.55 'IBM Plex Mono', monospace; color: var(--lc-muted); }
+.lc-chips { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 14px; }
+.lc-chip { font: 500 11.5px 'IBM Plex Mono', monospace; padding: 4px 10px; border-radius: 999px; border: 1px solid var(--lc-line2); color: var(--lc-muted); }
+.lc-stat { margin-top: 14px; display: inline-flex; align-items: baseline; gap: 10px; padding: 9px 14px; border-radius: 12px; border: 1px solid var(--lc-line2); }
+.lc-stat b { font: 800 22px 'Sora', sans-serif; color: var(--lc-accent); }
+.lc-stat span { font-size: 12.5px; color: var(--lc-soft); }
+.lc-nav { margin-top: auto; padding-top: 18px; display: flex; justify-content: space-between; gap: 12px; border-top: 1px solid var(--lc-line); }
+.lc-nav button {
+  border: 0; background: none; cursor: pointer; padding: 6px 2px;
+  font: 500 13px 'Inter', sans-serif; color: var(--lc-muted);
+  text-decoration: underline; text-decoration-color: var(--lc-line2); text-underline-offset: 4px;
+}
+.lc-nav button:first-child { text-align: left; }
+.lc-nav button:last-child { text-align: right; }
+.lc-nav button:hover { color: var(--lc-accent); text-decoration-color: var(--lc-accent); }
+.lc-nav button:focus-visible { outline: 2px solid var(--lc-accent); outline-offset: 3px; border-radius: 4px; }
+
+@media (prefers-reduced-motion: reduce) {
+  .lc-bloom { animation: none; }
+  .lc-pop { transition: none; }
+  .lc-swap { animation: none; }
 }
