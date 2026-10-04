@@ -15,7 +15,7 @@ export default function App() {
   const [isDark, setIsDark] = useDarkMode()
 
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen pb-24 md:pb-0">
       <Navbar isDark={isDark} setIsDark={setIsDark} />
       <main>
         <Hero />
