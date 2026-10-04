@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 
 const svgProps = {
   width: 20,
@@ -113,8 +113,37 @@ function useActiveSection() {
   return [active, setActive]
 }
 
+function useBarVisibility() {
+  const [visible, setVisible] = useState(true)
+  const lockUntil = useRef(0)
+
+  useEffect(() => {
+    let last = window.scrollY
+    const onScroll = () => {
+      const y = window.scrollY
+      const diff = y - last
+      if (Math.abs(diff) < 8) return
+      last = y
+      const nearTop = y < 80
+      const nearBottom = window.innerHeight + y >= document.documentElement.scrollHeight - 80
+      if (nearTop || nearBottom || diff < 0 || Date.now() < lockUntil.current) setVisible(true)
+      else setVisible(false)
+    }
+    window.addEventListener('scroll', onScroll, { passive: true })
+    return () => window.removeEventListener('scroll', onScroll)
+  }, [])
+
+  const holdOpen = () => {
+    lockUntil.current = Date.now() + 1200
+    setVisible(true)
+  }
+
+  return [visible, holdOpen]
+}
+
 export default function Navbar({ isDark, setIsDark }) {
   const [active, setActive] = useActiveSection()
+  const [barVisible, holdOpen] = useBarVisibility()
 
   return (
     <>
@@ -145,7 +174,9 @@ export default function Navbar({ isDark, setIsDark }) {
 
       <nav
         aria-label="Sections"
-        className="fixed inset-x-3 z-50 md:hidden"
+        className={`fixed inset-x-3 z-50 transition-transform duration-300 ease-out motion-reduce:transition-none md:hidden ${
+          barVisible ? 'translate-y-0' : 'translate-y-[calc(100%+1.5rem)]'
+        }`}
         style={{ bottom: 'max(0.75rem, env(safe-area-inset-bottom))' }}
       >
         <ul className="mx-auto flex max-w-md items-stretch justify-between rounded-full border border-[#283d3b]/10 bg-white/90 p-1.5 shadow-lg shadow-[#283d3b]/15 backdrop-blur-xl dark:border-[#edddd4]/10 dark:bg-[#2f3e46]/90 dark:shadow-black/40">
@@ -156,7 +187,10 @@ export default function Navbar({ isDark, setIsDark }) {
               <li key={l.href} className="min-w-0 flex-1">
                 <a
                   href={l.href}
-                  onClick={() => setActive(id)}
+                  onClick={() => {
+                    setActive(id)
+                    holdOpen()
+                  }}
                   aria-current={on ? 'true' : undefined}
                   className={`flex flex-col items-center gap-0.5 rounded-full px-0.5 py-2 text-[10px] leading-none transition ${
                     on
